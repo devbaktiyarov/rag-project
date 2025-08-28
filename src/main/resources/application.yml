@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: rag-project
+
+  ai:
+    openai:
+      api-key: ${OPEN_AI_API_KEY}
+      organization-id: ${OPEN_AI_ORGANIZATION_ID}
+      project-id: ${OPEN_AI_PROJECT_ID}
+      chat:
+        options:
+          model: gpt-4o
